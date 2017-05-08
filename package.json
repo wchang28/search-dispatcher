@@ -1,15 +1,12 @@
 {
   "name": "search-dispatcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Search Query Dispatcher",
   "main": "./js/index.js",
   "typings": "./js/index.d.ts",
   "keywords": [
-    "RCF",
-    "Messageing",
-    "Notification",
-    "Express",
-    "Router"
+    "Search",
+    "Suggestion"
   ],
   "repository": {
     "type": "git",
@@ -18,11 +15,10 @@
   "author": "Wen Chang",
   "license": "MIT",
   "dependencies": {
-    "@types/es6-promise": "0.0.32",
-    "@types/lodash": "^4.14.52",
-    "@types/node": "^6.0.42",
-    "@types/shortid": "0.0.28",
+    "@types/lodash": "^4.14.64",
+    "@types/node": "^6.0.73",
+    "@types/shortid": "^0.0.29",
     "lodash": "^4.17.4",
-    "shortid": "^2.2.6"
+    "shortid": "^2.2.8"
   }
 }
